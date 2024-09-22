@@ -35,3 +35,15 @@
   this will build production build ready files
 - npx parcel index.index.html
   this will build development filrs ready
+
+* React.createElement => Object => HTMLELement(render)
+* JSX - HTML-like or XML-like syntax
+* JSX (transpiled before it reaches the JS) - PARCEL - Babel
+* JSX → React-createElement → ReactElement-JS Object → HTMLELement(render)
+
+- This is the createation of Element in react , Here @nd parameter is used for giving attributr to our tages.
+  const heading = React.createElement("h1",{id:"head"},"Hello World using React!");
+- This is the connection b/w react and root id
+  const root = ReactDOM.createRoot(document.getElementById("root"));
+- This is the place where we are adding react code to that particular id
+  root.render(heading);
