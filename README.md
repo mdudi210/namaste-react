@@ -12,7 +12,7 @@
 ^ = small update
 ~ = larger update
 
-# Parcel
+# Parcel (what does parcel do)
 
 - Dev Build
 - Local Server
