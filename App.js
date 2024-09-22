@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 // <div>
 //     <div>
 //         <h1>i am h1 tag</h1>
@@ -22,7 +24,6 @@ const nested = React.createElement("div" ,{id : "parent"} ,
     ]
 );
 
-// JSX is used to make this struture easy in react
 
 // This is the createation of Element in react , Here @nd parameter is used for giving attributr to our tages.
 const heading =  React.createElement("h1",{id:"head"},"Hello World using React!");
